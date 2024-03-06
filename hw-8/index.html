@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .task-2-btn {
+      background-color: green;
+      border: none;
+    }
+  </style>
+  <body>
+    <!-- task 1 -->
+    <button class="js-btn">Test</button>
+    <br />
+    <!-- task 2 -->
+    <button class="task-2-btn">ON</button>
+    <br />
+    <!-- task 3 -->
+    <input
+      onkeyup=" if(event.code === 'Enter') { showInputValue() } "
+      type="text"
+      id="inputText"
+    />
+    <button id="submit">Submit</button>
+    <p id="result"></p>
+    <br />
+    <!-- task 5 -->
+    <input type="text" name="" id="task-5-input" />
+    <p id="task-5-result"></p>
+    <br />
+    <!-- task 6 -->
+    <p id="result-task-6"></p>
+    <button onclick="showNumbers(1)" id="one">1</button>
+    <button onclick="showNumbers(2)" id="two">2</button>
+    <button onclick="showNumbers(3)" id="three">3</button>
+    <button onclick="showNumbers('+')" id="plus">+</button>
+    <script src="./hw-8/script.js"></script>
+  </body>
+</html>
