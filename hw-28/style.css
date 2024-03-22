@@ -1,0 +1,35 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+  margin: 10px;
+  width: 200px;
+  list-style: none;
+  border: 2px solid green;
+}
+
+img {
+  width: 200px;
+}
+
+p {
+  margin: 10px;
+}
+
+.name {
+  color: brown;
+}
+
+.alive{
+    border: 3px solid green;
+}
+
+.dead{
+    border: 3px solid red;
+}
+
+.unknown{
+    border: 3px solid gray;
+}
